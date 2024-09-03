@@ -81,7 +81,6 @@ let wordsArray = [
 ];
 wordToGuess =
   wordsArray[Math.floor(Math.random() * wordsArray.length)].toLowerCase();
-console.log(wordToGuess);
 let messageArea = document.querySelector(".message");
 //Function Generate Input
 function generateInput() {
